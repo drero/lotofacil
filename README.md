@@ -1,3 +1,3 @@
 # lotofacil
 
-<img align="right" width="250" src="https://github.com/drero/lotofacil/lotofacil.png" />
+<img align="center" width="500" src="https://www.anbra.com.br/lotofacil/lotofacil.png" />
