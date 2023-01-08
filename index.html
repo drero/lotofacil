@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,900;1,400&display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>GERADOR DE CÓDIGOS DA LOTOFÁCIL = GoHorse</title>
+</head>
+<body>
+  <div class="content">
+  <h1>GERADOR DE <br> C<img src="./images/gohorse.png" class="gh" alt="Gohorse">DIGOS <br> DA LOTOFÁCIL</h1>
+<form id="formulario">
+      <label for="numero-jogos">Número de jogos:</label>
+      <input type="number" id="numero-jogos" min="1" value="1">
+      <br>
+      <label for="numero-numeros">Quantidade de números por jogo:</label>
+      <input type="number" id="numero-numeros" min="15" max="25" value="15">
+      <br>
+      <label for="numeros-fixos">Números fixos <br> (opcionais, separados por vírgula sem espaço):</label>
+      <input type="text" id="numeros-fixos">
+      <br>
+      <div class="btn">
+        <button type="button" id="botao-gerar">Gerar Jogos</button>
+        <button type="button" id="botao-limpar">Limpar Jogos</button>
+      </div>
+    </form>
+
+    <!-- Tabela para exibir os jogos gerados -->
+    <table id="tabela-jogos"></table>
+    </div>
+<!-- Javascript -->
+<script src="js/javascript.js"></script>
+</body>
+</html>
