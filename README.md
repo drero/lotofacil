@@ -1,3 +1,3 @@
 # lotofacil
 
-![alt text](https://github.com/drero/lotofacil/blob/[branch]/lotofacil.png?raw=true)
+<img align="right" width="250" src="https://github.com/drero/lotofacil/lotofacil.png" />
